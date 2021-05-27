@@ -1,0 +1,22 @@
+function convertFahrToCelsius(num){
+ //check if the input is string
+if(typeOf num === 'string'){
+
+    document.write('Type in a valid number');  
+
+}
+if(typeOf num === 'array'){
+
+    document.write('Type in a valid number');
+
+}
+
+
+ var nums =  num - 32*5/9;
+   
+   document.write(nums. ' Fahrenheit');
+}
+
+
+
+
